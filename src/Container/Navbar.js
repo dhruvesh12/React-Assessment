@@ -9,7 +9,7 @@ function NavBar() {
         <>
             <Navbar sticky="top" style={{backgroundColor:'#770c09'}}>
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#">
             <img
               alt=""
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_29GQbjLVbviF4vuy6U42fQ_d0z10D41F0w&usqp=CAU"
@@ -25,12 +25,12 @@ function NavBar() {
             <div className='centerName'>
 
             
-            <Nav.Link className='texts' href="#features">Home</Nav.Link>
-            <Nav.Link className='texts' href="#pricing">Product</Nav.Link>
-            <Nav.Link className='texts' href="#features">Distributors</Nav.Link>
-            <Nav.Link className='texts' href="#pricing">Manufacturers</Nav.Link>
-            <Nav.Link className='texts' href="#features">About Us</Nav.Link>
-            <Nav.Link className='texts' href="#pricing">Blog</Nav.Link>
+            <Nav.Link className='texts' >Home</Nav.Link>
+            <Nav.Link className='texts' >Product</Nav.Link>
+            <Nav.Link className='texts' >Distributors</Nav.Link>
+            <Nav.Link className='texts' >Manufacturers</Nav.Link>
+            <Nav.Link className='texts' >About Us</Nav.Link>
+            <Nav.Link className='texts' >Blog</Nav.Link>
             </div>
           </Nav>
           <Nav>
