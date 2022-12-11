@@ -1,0 +1,73 @@
+.centerName{
+    display: flex;
+    width:auto;
+    margin-left: 10%;
+}
+
+.centerName .texts{
+    white-space: nowrap;
+    font-size: x-large;
+    color: white;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    width: 400px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.filter2{
+    display: flex;
+}
+
+.filter2 > h8{
+    color: red;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.filter2 > h7{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.filter2 > button{
+    background-color: #00a69c;
+    border: 1px solid #f3f5f5;
+    border-radius: 5px;
+    margin-left: 5px;
+    color: #f3f5f5;
+    width: 100px;
+}
+
+.btnStyle{
+    background-color: #00a69c;
+    width: 100%;
+    text-align: left;
+    color: whitesmoke;
+    border: 1px solid #f3f5f5;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.cards{
+    text-align: left;
+    border-radius: 0px;
+}
+
+.header{
+    background-color: #d9d9d9;
+}
